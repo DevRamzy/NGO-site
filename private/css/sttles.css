@@ -5,10 +5,13 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    
 }
 
 
-
+main {
+    height: 300vh;
+}
 
 
 
@@ -184,4 +187,97 @@ main {
 }
 #featured .featured-content {
 
+}
+
+/* ==============================
+# About section
+================================*/
+#about {
+    position: absolute;
+    top: 75vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#about h4 {
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+#about video {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#about p {
+    padding: 1rem;
+}
+#about button {
+    color: gray;
+    padding: .2rem;
+    background-color: transparent;
+    margin-left: 1rem;
+    border-radius: .5rem;
+    border: 1px solid grey;
+}
+#about button:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+/* ==============================
+# Project section
+================================*/
+#projects h4 {
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+#projects {
+    position: absolute;
+    top: 140vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#projects .card {
+    margin-left: 3rem;
+}
+#project .row .card img {
+    height: 10vh;
+    width: 100%;
+}
+
+
+/* ==============================
+# Track Record section
+================================*/
+#stats {
+    position: absolute;
+    top: 240vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 71vh;
+}
+#stats .parallax {
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#stats .parallax::before {
+    content: '';
+    background-color: rgba(144, 223, 186, 0.5);
+    position: absolute;
+    width: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
