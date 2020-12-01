@@ -68,7 +68,7 @@
     font-size: 1rem;
     font-weight: 500;
 }
-.navbar .collapse a:hover {
+.navbar .collapse a:hover, .nav-item .active {
     color: gray;
 }
 
