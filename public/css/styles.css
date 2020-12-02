@@ -5,7 +5,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    
 }
 /* ==============================
 # top bar 
@@ -67,9 +66,9 @@
 #stats {
     margin: 0;
     padding: 0;
-    height: 70vh;
     width: 100%;
-    background-size: cover;
+    height: 70vh;
+    background-size: auto;
     top: 6.5rem;
 }
 #stats .parallax {
@@ -111,15 +110,19 @@
     color: #fff;
 }
 
+main {
+    /* overflow: hidden; */
+}
+
 /* =============================================
 # About
 ================================================*/
 #about {
     margin: 0;
     padding: 0;
-    margin-left: 1rem;
+    width: 100%;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 #about h1 {
     font-weight: 500;
@@ -159,7 +162,7 @@
     color: #04b554;
 }
 #how .row {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 #how .service i {
     border-radius: 50%;
@@ -176,14 +179,13 @@
 /* ==============================
 # Project section
 ================================*/
-#projects {
-    margin: 0;
-    padding: 0;
-}
 #projects h4 {
     margin-bottom: 3rem;
     font-weight: 500;
     font-size: 2rem;
+}
+#projects {
+    
 }
 #projects .project {
     margin-left: 3rem;
@@ -192,6 +194,82 @@
 }
 #projects .project img {
     width: 100%;
+}
+
+/* ==============================
+# Call to Action section
+================================*/
+#call {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+#call .row {
+    padding: 1rem;
+}
+#call .row .stats {
+    background-color: #05caca;
+    padding: 1rem 3rem 1rem 3rem;
+}
+#call .row h3, #call .row h4, #call .row  {
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+#call .row .one {
+    background-color: #04b554;
+    padding: 1rem 3rem 1rem 3rem;
+}
+#call .row .two {
+    background-color: #0dd872;
+    padding: 1rem 3rem 1rem 3rem;
+}
+#call .row .one a, #call .row .two a {
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: .2rem .5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    box-shadow: 0 .5rem .5rem 0 gray;
+}
+#call .row .one a:hover, #call .row .two a:hover {
+    background-color: black;
+    border: 2px solid gray;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* ==============================
+# Our Team section
+================================*/
+#team .col-lg-3 {
+
+}
+#team img {
+    border-radius: 100%;
+}
+
+/* ==============================
+# call To Donate section
+================================*/
+#donate {
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+}
+#donate div p{
+    background-color: #265050;
+    color: #ffffff;
+    text-align: center;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+#donate div p a {
+    margin-left: 3rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0 .5rem;
+    cursor: pointer;
 }
 
 /* =============================================
