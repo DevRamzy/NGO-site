@@ -6,6 +6,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
 /* ==============================
 # top bar 
 ================================*/
@@ -59,7 +66,9 @@
 .navbar .collapse a:hover {
     color: gray;
 }
-
+.navbar .logo {
+    padding: .5rem;
+}
 /* ======================================
 # Parallax
 ========================================== */
@@ -350,7 +359,7 @@ input:focus {
     margin-top: 10rem;
     margin: 0;
     background-color: #0ddf92;
-    padding: 0 0 1.8rem 0;
+    padding: 0 0 0 0;
     color: #ffffff;
     font-size: 0.8rem;
     z-index: 10;

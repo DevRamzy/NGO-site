@@ -54,7 +54,7 @@
 }
 
 .navbar {
-    width: 70%;
+    width: 80%;
     height: 5rem;
     margin: 0 auto;
     background-color: rgb(109, 236, 194);
@@ -71,7 +71,17 @@
 .navbar .collapse a:hover, .nav-item .active {
     color: gray;
 }
+.logo {
+    position: absolute;
+    z-index: 10;
+    background-color:rgb(109, 236, 194);
+    left: 3rem;
+    padding: .5rem;
+    margin: 0;
+    border-radius: .7rem;
 
+
+}
 /* ==============================
 # Slider
 ================================*/
@@ -100,7 +110,7 @@
     margin-left: 5rem;
     color: whitesmoke;
     position: absolute;
-    top: 47%;
+    top: 52%;
     transform: translateY(-50%);
 }
 #slider .content h6 {
