@@ -110,10 +110,6 @@
     color: #fff;
 }
 
-main {
-    /* overflow: hidden; */
-}
-
 /* =============================================
 # About
 ================================================*/
@@ -184,9 +180,6 @@ main {
     font-weight: 500;
     font-size: 2rem;
 }
-#projects {
-    
-}
 #projects .project {
     margin-left: 3rem;
     height: 30rem;
@@ -241,9 +234,6 @@ main {
 /* ==============================
 # Our Team section
 ================================*/
-#team .col-lg-3 {
-
-}
 #team img {
     border-radius: 100%;
 }
@@ -271,6 +261,87 @@ main {
     padding: 0 .5rem;
     cursor: pointer;
 }
+
+
+/* ==========================================================
+# Contact Page
+============================================================*/
+/* =========================
+# Contact Form
+============================= */
+form {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+form h3 {
+    font-weight: 500;
+    color: #04b554;
+    width: 30%;
+    margin-top: .1rem;
+    font-weight: 500;
+    font-size: 2rem;
+    border-bottom: 5px solid #cde6d8;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #164440;
+    opacity: 1; /* Firefox */
+}
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#ffffff;
+}
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ffffff;
+}
+  input[type=text],input[type=email], textarea {
+    background-color: #3CBC8D;
+    color: white;
+    font-weight: 500;
+}
+form input[type=submit] {
+    font-weight: 500;
+    background-color: #3CBC8D;
+    color: white;
+    font-weight: 500;
+    padding: .5rem;
+    border: none;
+
+}
+form input[type=submit]:hover {
+    color: #000000;
+    border: 1px solid #047c3e;
+    background-color: transparent;
+    border-radius: 2rem;
+}
+
+#fname, #email {
+    background-color: #0ddf9252;
+    width: 80%;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border: 3px solid #047c3e;
+    border-radius: 5px;
+    color: #ffffff;
+}
+#subject {
+    height: auto!important;
+    padding: 2.3rem!important;
+    margin-top: 1rem;
+    width: 80%;
+    background-color: #0ddf9252;
+    border: 3px solid #047c3e;
+    border-radius: 5px;
+}
+input:focus {
+    border: 2px solid #000000;
+}
+
+#form .address {
+    margin-top: 5rem;
+}
+
 
 /* =============================================
 # Footer
